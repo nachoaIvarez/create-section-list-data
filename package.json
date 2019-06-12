@@ -1,0 +1,22 @@
+{
+  "name": "create-section-list-data",
+  "version": "0.1.0",
+  "description": "Helper function to generate the data structure that SectionList (React Native) recieves as the `sections` prop, based on an array of plain objects and a key of the object.",
+  "repository": "https://github.com/nachoaIvarez/create-section-list-data",
+  "author": "Nacho Álvarez",
+  "license": "MIT",
+  "private": false,
+  "source": "index.js",
+  "main": "dist/create-section-list-data.js",
+  "module": "dist/create-section-list-data.mjs",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "dependencies": {
+    "lodash.groupby": "^4.6.0"
+  },
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  }
+}
